@@ -1,0 +1,10 @@
+.navlist {
+  width:100%;
+  border: 1px solid black;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  padding:0;
+  margin:0;
+  list-style-type: none;
+}
