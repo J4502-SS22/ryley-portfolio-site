@@ -7,19 +7,22 @@
   padding:0;
   margin:0;
   list-style-type: none;
+  background:rgb(250, 160, 160);
 }
+/*pastel red*/
 
 #headshot{
   display:flex;
   justify-content:center;
   width: 100px;
   height:auto;
+  /*need to make this smaller and centered*/
 }
 
 body {
-background:rgb(204, 204, 255);
+background:rgb(255, 192, 203);
 }
-
+/*pink*/
 
 h1{
   display:flex;
