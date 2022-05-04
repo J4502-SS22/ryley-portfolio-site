@@ -1,3 +1,16 @@
+h1{
+  display:flex;
+  justify-content:center;
+}
+
+body{
+  background:rgb(255, 192, 203);
+  padding: 50px;
+width: 100vw;
+box-sizing: border-box;
+}
+
+
 .navlist {
   width:100%;
   border: 1px solid black;
@@ -11,20 +24,23 @@
 }
 /*pastel red*/
 
-#headshot{
-  display:flex;
-  justify-content:center;
-  width: 100px;
-  height:auto;
+.navlist li {
+  width:50%;
+  box-sizing:border-box;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 60px;
+}
+
+
+#headshot img {
+  width:100%;
+  max-width:300px;
   /*need to make this smaller and centered*/
 }
 
-body {
-background:rgb(255, 192, 203);
-}
-/*pink*/
 
-h1{
-  display:flex;
-  justify-content:center;
-}
+/*give more space around the edges, not starting right on the left side*/
