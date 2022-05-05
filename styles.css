@@ -3,6 +3,11 @@ h1{
   justify-content:center;
 }
 
+h2{
+  display:flex;
+  justify-content:center;
+}
+
 body{
   background:rgb(255, 192, 203);
   padding: 50px;
@@ -37,6 +42,15 @@ box-sizing: border-box;
   align-items: center;
   height: 100%;
   min-height: 60px;
+  font-size: 2em;
+}
+
+.active {
+  background-color: white;
+}
+
+.active a {
+  color: rgb(250, 160, 160);
 }
 
 
@@ -45,8 +59,51 @@ box-sizing: border-box;
   max-width:300px;
   display: flex;
   justify-content: center;
-  /*need to make this smaller and centered*/
+  margin-left: auto;
+    margin-right: auto;
+}
+
+#bbbagel img{
+  width:100%;
+  max-width:300px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+    margin-right: auto;
+}
+
+#indiastory img{
+  width:100%;
+  max-width:300px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+    margin-right: auto;
+}
+
+#ferment img{
+  width:100%;
+  max-width:300px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+    margin-right: auto;
+}
+
+#vinyl img{
+  width:100%;
+  max-width:300px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+    margin-right: auto;
 }
 
 
+
+
+figcaption {
+  display:flex;
+  justify-content:center;
+}
 /*give more space around the edges, not starting right on the left side*/
